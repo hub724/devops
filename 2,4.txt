@@ -1,0 +1,25 @@
+prog 2:
+open eclipse-->launch(file-->new-->maven project)-->next
+org.apache.maven.archetype......quick start..version 1.1 (select)-->next
+
+group id:com.program2.maven
+artifact id:program2-example.jar---->finish
+
+yes (build success)
+
+open project at right corner
+double click on pom.xml-->run as-->maven build-->launch-->select goal as package-->run
+
+open src/main/java
+app.java -->run
+
+prog 4:
+prog 2 followed by
+
+cntrl+shift+alt+t(terminal)
+
+$ gradle init
+migrate (yes)
+groovy
+validate as yes-->BUILD SUCCESS
+$ gradle build --> BUILD SUCCESS
