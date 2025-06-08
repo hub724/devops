@@ -1,0 +1,24 @@
+program 10:
+
+1. go to organization setting
+
+2. in terminal
+   $mkdir maventest1
+   $cd maventest1
+
+3. $mvn archetype: generarte____mode:false
+
+4. create repository in GitHub as maventtestazure
+   $ git init
+   $ git add
+   $ git commit -m azure pipeline example
+   $ git branch -M main
+   $ git remote add origin -link-
+   $ git push -u origin main
+
+5. go to azure devops organization
+
+select pipeline
+select repository
+approve to install
+config: maven--save.run
