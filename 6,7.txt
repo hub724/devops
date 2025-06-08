@@ -1,0 +1,33 @@
+6,7:
+Program 6:
+
+Download Jenkins
+Manage Jenkins
+Build Environment
+maven_version
+add pom.xml path
+click build texts- console output
+
+
+
+Program 7:
+
+1. $sudo adduser[username]
+   $sudo usermod -aG sudo ansible
+   $sudo su ansible
+
+2. Generate ssh key
+   $ssh-keygen
+
+3. $ssh-copy-id username@[remote host]
+
+4. install ansible
+   $ sudo apt update
+   $ sudo apt install ansible -y
+
+5. $ansible --version
+
+6. $ sudo mkdir -p
+   $sudo nano/etc/ansible/hosts
+   $ansible -inventory--list -y
+   $sudo ansible all -m ping
