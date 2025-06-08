@@ -1,0 +1,11 @@
+prog 5:
+$java --version
+$ browser--> download Jenkins in ubuntu
+--> download and deploy-->debun/ubuntu for lts(one by one copy paste 4 commands)
+scroll down-->start Jenkins (one by one copy paste 3 commands)
+
+browser -->localhost:8080--->(copy and paste the path)
+$sodo more (paste the path)
+(copy password and paste it in Jenkins window)
+-->install suggested plugin(opt)
+thn signup with credentials-->save &cont
